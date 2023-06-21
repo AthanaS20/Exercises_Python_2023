@@ -5,11 +5,27 @@ Note: for integers larger than 9, write out the names of each digit in a single 
 For example, write 12 as "onetwo" (instead of twelve), and 999 as "nineninenine" (instead of nine hundred and ninety-nine).
 For any integer between 0 and 999, return an array showing the path from that integer to a stable equilibrium:"""
 
-def numbers_of_letter(number):
-    if number: ...
+# preciso converter o numero em letra
 
-def numbers_letters():
-   ...
+letters_numbers = {
+    '0': 'zero',
+    '1': 'one',
+    '2': 'two',
+    '3': 'three',
+    '4': 'four',
+    '5': 'five',
+    '6': 'six',
+    '7': 'seven',
+    '8': 'eigth',
+    '9': 'nine',
+}
     
+user = input('type a number: ')
+print(letters_numbers[user])
+
+
+# for letras in letters_numbers[user]:        
+second_number = len(letters_numbers[user])
+# print(letters_numbers[second_number])
 
     
