@@ -1,25 +1,7 @@
-# a cada sequencia de 10 numeros temos um num palindromo
-x = 121
+numero = '111'
 
-lista = []
-cont = 11
 
-while cont <= 100:
-    lista.append(cont)
-    cont += 11
-    
-print(lista)
-
-if x in lista:
+if numero == numero[::-1]:
     print(True)
-
-elif x >= 0 and x <= 9:
-    print(True)
-    
 else:
     print(False)
-
-
-    
-   
-
