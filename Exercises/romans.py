@@ -30,23 +30,24 @@ romans_numbers = {
 }
 
 # separate the values and keys using for loop
-s = 'III'
+s = 'IV'
 result = 0
 prev_value = 0
 
 for number in range(len(s)-1, -1, -1):
+    print(number)
 
     value = romans_numbers.get(s[number])
     if value is None:
         print(0)
     
-    if value < prev_value:
-        result -= value
+    if value < prev_value: # 
+        result -= value # 0
 
     else:
-        result += value
+        result += value 
 
-    prev_value = value
+    prev_value = value 
 print(result)
    
 
