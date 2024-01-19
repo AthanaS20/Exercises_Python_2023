@@ -1,7 +1,25 @@
-digits = [1,2,3]
-last_digit = digits[-1]
+digits = [9]
 
-for i, k in enumerate(digits):
+
+for i in range(len(digits)):
     
-    ...
+    
+    if digits[-1]:
+       digits[-1] = digits[-1] + 1
+    if digits[i] <= 9:
+        digits.
+   
+    print(digits)
+    break
+
+        
+    
+   
+    
+
+  
+    
+
+    
+    
     
